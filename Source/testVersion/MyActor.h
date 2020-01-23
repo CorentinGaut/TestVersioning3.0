@@ -21,6 +21,7 @@ public:
 	// Sets default values for this actor's properties
 	AMyActor();
 
+
 	 UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Coco)
 	 float YoloCorentin;
 	
