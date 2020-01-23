@@ -13,6 +13,10 @@ class TESTVERSION_API AMyActor : public AActor
 	
 public: UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = test)
 		float Yolo;
+
+public: UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = test)
+	float YoloDeThomas;
+	
 public:	
 	// Sets default values for this actor's properties
 	AMyActor();
